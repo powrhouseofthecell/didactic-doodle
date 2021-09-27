@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[powrhouseofthecell], [Zuhaib], [shahzuhaib_], Full Stack Web development" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Zuhaib] | Developer" />
+  <title>[Zuhaib] | Developer</title>
+  <link rel="stylesheet" href="./sass/styles/animations.css" />
+  <link rel="stylesheet" href="./sass/styles/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+</head>
+
+<body>
+  <header id="particles-js" class="head color-change">
+    <h1 class="heading">
+      <span class="head-main">I'm Zuhaib</span>
+      <span class="head-second">A web developer and designer</span>
+    </h1>
+  </header>
+
+
+  <section id="about" class="sec-2">
+    <div class="wow fadeInUp">
+      <h3>About me</h3>
+      <p>
+        Hi, I am Zuhaib. A Goal-oriented Web Developer and Designer with strong
+        commitment to collaboration and solutions-oriented problem-solving. Use
+        various web development software to develop customer-focused websites
+        and designs. Committed to high standards of web design, UI/UX,
+        reusability and speed for multiple types of end-users. Experience
+        developing web sites using SASS, JavaScript, React JS, Python, Node JS,
+        Django and a few other technologies.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="sec-1">
+    <div id="skills" class="row-1">
+      <div class="py space-right wow fadeInUp fadeInLeft">
+        <h3>Python</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
+            iste consequatur. Mollitia consequuntur debitis sint alias
+            praesentium minima accusantium dicta voluptatum laudantium.
+          </p>
+        </div>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="js space-right wow fadeInUp fadeInLeft">
+        <h3>Javascript</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
+            iste consequatur. Mollitia consequuntur debitis sint alias
+            praesentium minima accusantium dicta voluptatum laudantium.
+          </p>
+        </div>
+        <br>
+        <hr>
+        <br>
+      </div>
+    </div>
+    <div class="row-2">
+      <div class="node space-left wow fadeInUp fadeInRight">
+        <h3>Node JS</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
+            iste consequatur. Mollitia consequuntur debitis sint alias
+            praesentium minima accusantium dicta voluptatum laudantium.
+          </p>
+        </div>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="react space-left wow fadeInUp fadeInRight">
+        <h3>React JS</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
+            iste consequatur. Mollitia consequuntur debitis sint alias
+            praesentium minima accusantium dicta voluptatum laudantium.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer id="foot" class="foot">
+
+    <div class="div-ico">
+      <a class="link wobbleAnim" href="https://github.com/powrhouseofthecell"><img
+          src="https://img.icons8.com/small/2x/github.png" alt="" /></a>
+
+      <a class="link wobbleAnim" href="https://twitter.com/shahzuhaib_"><img
+          src="https://img.icons8.com/small/2x/twitter.png" alt="" /></a>
+
+      <a class="link wobbleAnim" href="https://linkedin.com/in/zuhaib-nazir"><img
+          src="https://img.icons8.com/small/2x/linkedin.png" alt="" /></a>
+
+      <a class="link wobbleAnim" href="https://www.instagram.com/graiexsoul"><img
+          src="https://img.icons8.com/small/2x/instagram-new.png" alt="" /></a>
+    </div>
+
+    <p>Made with <span class="wobbleAnim heart">
+        <img class="heart" src="https://img.icons8.com/small/2x/like.png" alt="">
+      </span> from Kashmir.</p>
+    </div>
+  </footer>
+</body>
+<script src="./dist/wow.min.js"></script>
+<script>
+  wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    callback: function (box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  });
+  wow.init();
+  document.getElementById('moar').onclick = function () {
+    var section = document.createElement('section');
+    section.className = 'section--purple wow fadeInDown';
+    this.parentNode.insertBefore(section, this);
+  };
+</script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+
+
+</html>
