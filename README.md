@@ -1,8 +1,7 @@
-<h1 align="center">Welcome to Portfolio 👋</h1>
-<p>
-</p>
+<h1 align="center">Welcome to Portfolio 🎯</h1>
 
-> Portfolio site
+
+> Personal portfolio. Demo below.
 
 ### ✨ [Demo](https://zuhaib.live)
 
