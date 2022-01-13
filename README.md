@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Portfolio 🎯</h1>
+<h1 align="center">Personal Portfolio 🎯</h1>
 
 
 > Personal portfolio. Demo below.
