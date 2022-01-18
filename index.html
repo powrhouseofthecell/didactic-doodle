@@ -4,13 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
   <meta name="keywords" content="[powrhouseofthecell], [Zuhaib], [shahzuhaib_], Full Stack Web development" />
-  <!-- Improve your SEO by adding a small descrption of you -->
   <meta name="description" content="[Zuhaib] | Developer" />
   <title>[Zuhaib] | Developer</title>
-  <link rel="stylesheet" href="./sass/styles/animations.css" />
-  <link rel="stylesheet" href="./sass/styles/styles.css" />
+  <link rel="stylesheet" href="styles/animations.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sacramento&display=swap"
     rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
@@ -30,17 +28,13 @@
       <h3>About me</h3>
       <p>
         I am currently pursuing B.Tech in Computer Science and Engineering from Islamic University of Science and Technology located at Awantipora, Jammu and Kashmir, India. Currently in my final year and expected to graduate in December 2022. I’m a Full-Stack developer experiencing with tools and languages such as: JavaScript, Python, NodeJS, ExpressJS, MongoDB, MySQL, ReactJS, GraphQL, RESTful architecture, C, C++, Java and Git
-        <!-- Hi, I am Zuhaib. A Goal-oriented Web Developer and Designer with strong
-        commitment to collaboration and solutions-oriented problem-solving. Use
-        various web development software to develop customer-focused websites
-        and designs. Committed to high standards of web design, UI/UX,
-        reusability and speed for multiple types of end-users. Experience
-        developing web sites using SASS, JavaScript, React JS, Python, Node JS,
-        Django and a few other technologies. -->
       </p>
     </div>
   </section>
 
+  <section class="workAround" > 
+    <h2>PROJECTS</h2>
+  </section>
 
   <section class="sec-1">
     <div id="skills" class="row-1">
@@ -48,10 +42,9 @@
         <h3>DEVELOPER / CHAT APP</h3>
         <div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
-            iste consequatur. Mollitia consequuntur debitis sint alias
-            praesentium minima accusantium dicta voluptatum laudantium.
+            A chat application where you can create a chat room and others can join. This project is built with NodeJS, ExpressJS, and socket.io with some basic styling.<br>
+            GitHub repository: <a class="projLink" href="https://github.com/powrhouseofthecell/ChatApp">powrhouseofthecell/ChatApp</a> <br>
+            Demo: <a class="projLink" href="https://zuhaib-chat-app.herokuapp.com/">Chat App</a>
           </p>
         </div>
         <br>
@@ -62,10 +55,9 @@
         <h3>DEVELOPER / TASK MANAGER API</h3>
         <div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
-            iste consequatur. Mollitia consequuntur debitis sint alias
-            praesentium minima accusantium dicta voluptatum laudantium.
+            A full-fledged task manager API with includes features of Authentication and Authorization. File uploads are supported and on sign-up / account deletion users are sent a email as well.
+            The languages used in the project are JavaScript, NodeJS, ExpressJS, MongoDB / Mongoose
+            The project's GitHub repository link: <a class="projLink" href="https://github.com/powrhouseofthecell/Task-Manager">powrhouseofthecell/Task-Manager</a> 
           </p>
         </div>
         <br>
@@ -78,10 +70,8 @@
         <h3>DEVELOPER / CLI NOTES TAKING APP</h3>
         <div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
-            iste consequatur. Mollitia consequuntur debitis sint alias
-            praesentium minima accusantium dicta voluptatum laudantium.
+            A Command line notes taking script written in JavaScript, NodeJS and yargs.
+            GitHub repository link: <a class="projLink" href="https://github.com/powrhouseofthecell/cli-notes-taking-app">powrhouseofthecell/cli-notes-taking-app</a> 
           </p>
         </div>
         <br>
@@ -92,10 +82,7 @@
         <h3>DEVELOPER / MENTORSHIP WEB APP</h3>
         <div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-            deserunt sit quibusdam nostrum temporibus inventore quisquam nobis
-            iste consequatur. Mollitia consequuntur debitis sint alias
-            praesentium minima accusantium dicta voluptatum laudantium.
+            Taking inspiration from a project built by IGDTUW students, this is a mentorship app that will help students to link up with teachers or even other students who can help them in their related fields. The app is being built on MERN stack.
           </p>
         </div>
       </div>
@@ -132,7 +119,7 @@
     animateClass: 'animated',
     offset: 100,
     callback: function (box) {
-      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+      //console.log()
     }
   });
   wow.init();
