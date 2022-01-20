@@ -8,9 +8,7 @@ hr {
 
 .projLink {
    color: #92a9bd;
-
    text-decoration: none;
-   /* border-bottom: 0.1em solid #e8e1d8; */
    transition: background-color 0.2s ease-in-out;
 }
 
@@ -34,7 +32,7 @@ hr {
    padding-top: 10rem;
    font-size: 2rem;
    letter-spacing: 4px;
-   font-weight: 500;
+   color: rgb(34, 32, 32);
 }
 
 @media (min-width: 1000px) {
@@ -53,6 +51,11 @@ hr {
 
 .particles-js-canvas-el {
    position: absolute;
+}
+
+.sec-2 {
+   padding: 10rem;
+   background-color: #fbc687;
 }
 
 * {
@@ -192,10 +195,6 @@ h3 {
    }
 }
 
-.sec-2 {
-   padding: 10rem;
-   background-color: #fbc687;
-}
 @media (max-width: 550px) {
    .sec-2 {
       letter-spacing: 0.25rem;
