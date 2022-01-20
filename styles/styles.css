@@ -1,62 +1,4 @@
-hr {
-   border-style: dotted;
-   width: 5%;
-   border-top: none;
-   border-width: 5px;
-   margin: 0 auto;
-}
-
-.projLink {
-   color: #92a9bd;
-   text-decoration: none;
-   transition: background-color 0.2s ease-in-out;
-}
-
-.projLink:hover {
-   background-color: #e8e1d8;
-   text-decoration: none;
-}
-
-.animated {
-   animation-duration: 1s;
-   animation-fill-mode: both;
-}
-
-.fadeInUp {
-   animation: fadeInUp 1.2s ease-in-out;
-}
-
-.workAround {
-   background-color: #f4f7c5;
-   text-align: center;
-   padding-top: 10rem;
-   font-size: 2rem;
-   letter-spacing: 4px;
-   color: rgb(34, 32, 32);
-}
-
-@media (min-width: 1000px) {
-   .wobbleAnim:hover {
-      display: inline-block;
-      animation: wobble-vertical 1s ease-in;
-   }
-}
-#particles-js {
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.particles-js-canvas-el {
-   position: absolute;
-}
-
-.sec-2 {
-   padding: 10rem;
-   background-color: #fbc687;
-}
+/* ! === === === === === === HEAD === === === === === === === */
 
 * {
    padding: 0;
@@ -71,10 +13,36 @@ body {
    font-family: sans-serif;
 }
 
-h3 {
-   padding-bottom: 2rem;
-   text-transform: uppercase;
-   font-weight: 500;
+#particles-js {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.particles-js-canvas-el {
+   position: absolute;
+}
+
+.heading {
+   line-height: normal;
+   padding-bottom: 10rem;
+}
+
+.heading .head-main {
+   color: black;
+   display: block;
+   font-family: 'Major Mono Display';
+   animation: moveLeft 1.3s ease-in-out;
+}
+
+.heading .head-second {
+   color: black;
+   display: block;
+   font-family: 'Sacramento';
+   margin-top: 2rem;
+   animation: moveRight 1.3s ease-in-out;
 }
 
 .head {
@@ -83,142 +51,77 @@ h3 {
    background-color: #ea907a;
 }
 
-.heading {
-   line-height: normal;
-   padding-bottom: 10rem;
-}
-.heading .head-main {
-   color: black;
-   display: block;
-   font-family: 'Major Mono Display';
-   animation: moveLeft 1.3s ease-in-out;
-}
-@media (max-width: 550px) {
-   .heading .head-main {
-      font-size: 4rem;
-      letter-spacing: 0;
-   }
-}
-@media (min-width: 551px) {
-   .heading .head-main {
-      font-size: 6rem;
-      letter-spacing: 0.5rem;
-   }
-}
-@media (min-width: 1300px) {
-   .heading .head-main {
-      font-size: 7rem;
-      letter-spacing: 1rem;
-   }
-}
-.heading .head-second {
-   color: black;
-   display: block;
-   font-family: 'Sacramento';
-   margin-top: 2rem;
-   animation: moveRight 1.3s ease-in-out;
-}
-@media (max-width: 550px) {
-   .heading .head-second {
-      font-size: 2.8rem;
-      letter-spacing: 0;
-      padding-bottom: 5rem;
-   }
-}
-@media (min-width: 551px) {
-   .heading .head-second {
-      font-size: 4.8rem;
-      letter-spacing: 0;
-   }
-}
-@media (min-width: 1300px) {
-   .heading .head-second {
-      font-size: 4.5rem;
-      letter-spacing: 0;
-   }
+/* ! === === === === === === HEAD END === === === === === === === */
+
+/* * === === === === === === ABOUT === === === === === === === */
+
+.about {
+   padding: 10rem;
+   background-color: #fbc687;
 }
 
-.sec-1 {
+/* * === === === === === === ABOUT END === === === === === === === */
+
+/* ? === === === === === === SKILLS === === === === === === === */
+
+.flex-container {
+   display: flex;
    background-color: #f4f7c5;
-   padding: 10% 5%;
+   /* padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 5%;
+   padding-bottom: 5%; */
+   gap: 5%;
 }
-@media (min-width: 850px) {
-   .sec-1 {
-      display: flex;
-   }
-   .sec-1 .space-right {
-      padding-right: 5rem;
-   }
-   .sec-1 .space-left {
-      padding-left: 5rem;
-   }
-   .sec-1 hr {
-      visibility: hidden;
-   }
-   .sec-1 .fadeInLeft {
-      animation-name: fadeInLeft;
-   }
-   .sec-1 .fadeInRight {
-      animation-name: fadeInRight;
-   }
+.flex-child {
+   flex: 1;
 }
-@media (max-width: 550px) {
-   .sec-1 {
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 7rem 3rem;
-   }
-}
-@media (min-width: 551px) {
-   .sec-1 {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 7rem 5rem;
-   }
-}
-@media (min-width: 1300px) {
-   .sec-1 {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 10rem 7rem;
-   }
-}
-@media (min-width: 1400px) {
-   .sec-1 {
-      letter-spacing: 0.2rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 10rem 7rem;
-   }
+.flex-child:first-child {
+   margin-right: 20px;
 }
 
-@media (max-width: 550px) {
-   .sec-2 {
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 7rem 3rem;
-   }
+h3 {
+   padding-bottom: 2rem;
+   text-transform: uppercase;
+   font-weight: 500;
 }
-@media (min-width: 551px) {
-   .sec-2 {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 7rem 5rem;
-   }
+
+.projHeading {
+   background-color: #f4f7c5;
+   text-align: center;
+   padding-top: 7rem;
+   font-size: 2rem;
+   letter-spacing: 4px;
+   color: rgb(70, 66, 66);
 }
-@media (min-width: 1300px) {
-   .sec-2 {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 10rem 7rem;
-   }
+
+p {
+   padding-top: 2rem;
 }
+
+.projLink {
+   color: #92a9bd;
+   text-decoration: none;
+   transition: background-color 0.2s ease-in-out;
+}
+
+.projLink:hover {
+   background-color: #e8e1d8;
+   text-decoration: none;
+}
+
+hr {
+   border-style: dotted;
+   width: 5%;
+   border-top: none;
+   border-width: 5px;
+   margin: 0 auto;
+   color: rgb(70, 66, 66);
+}
+
+/* ? === === === === === === SKILLS END === === === === === === === */
+
+/* * === === === === === === FOOT === === === === === === === */
 
 .foot {
    padding-top: 5rem;
@@ -230,6 +133,154 @@ h3 {
    top: 1.5px;
    height: 17px;
 }
+
+/* * === === === === === === FOOT END === === === === === === === */
+
+/* ! === === === === === === ANIMATION AND MEDIA === === === === === === === */
+
+.animated {
+   animation-duration: 1s;
+   animation-fill-mode: both;
+}
+
+.fadeInUp {
+   animation: fadeInUp 1.2s ease-in-out;
+}
+
+@media (max-width: 550px) {
+   .about {
+      letter-spacing: 0.25rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding: 7rem 3rem;
+   }
+}
+
+@media (min-width: 551px) {
+   .about {
+      letter-spacing: 0.35rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 7rem 5rem;
+   }
+}
+
+@media (min-width: 1300px) {
+   .about {
+      letter-spacing: 0.35rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 10rem 7rem;
+   }
+}
+
+@media (min-width: 1000px) {
+   .wobbleAnim:hover {
+      display: inline-block;
+      animation: wobble-vertical 1s ease-in;
+   }
+}
+
+@media (max-width: 550px) {
+   .heading .head-main {
+      font-size: 4rem;
+      letter-spacing: 0;
+   }
+}
+
+@media (min-width: 551px) {
+   .heading .head-main {
+      font-size: 6rem;
+      letter-spacing: 0.5rem;
+   }
+}
+
+@media (min-width: 1300px) {
+   .heading .head-main {
+      font-size: 7rem;
+      letter-spacing: 1rem;
+   }
+}
+
+@media (max-width: 550px) {
+   .heading .head-second {
+      font-size: 2.8rem;
+      letter-spacing: 0;
+      padding-bottom: 5rem;
+   }
+}
+
+@media (min-width: 551px) {
+   .heading .head-second {
+      font-size: 4.8rem;
+      letter-spacing: 0;
+   }
+}
+
+@media (min-width: 1300px) {
+   .heading .head-second {
+      font-size: 4.5rem;
+      letter-spacing: 0;
+   }
+}
+
+@media (max-width: 550px) {
+   .flex-container {
+      letter-spacing: 0.25rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding: 7rem 3rem;
+   }
+}
+
+@media (min-width: 551px) {
+   .flex-container {
+      letter-spacing: 0.35rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 7rem 5rem;
+   }
+}
+
+@media (min-width: 1300px) {
+   .flex-container {
+      letter-spacing: 0.35rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 10rem 7rem;
+   }
+}
+
+@media (min-width: 1400px) {
+   .flex-container {
+      letter-spacing: 0.2rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      padding: 10rem 7rem;
+   }
+}
+
+@media (min-width: 850px) {
+   .flex-container {
+      display: flex;
+   }
+   .flex-container .space-right {
+      padding-right: 5rem;
+   }
+   .flex-container .space-left {
+      padding-left: 5rem;
+   }
+   .flex-container hr {
+      visibility: hidden;
+   }
+   .fadeInLeft {
+      animation-name: fadeInLeft;
+   }
+   .fadeInRight {
+      animation-name: fadeInRight;
+   }
+}
+
 @media (max-width: 550px) {
    .foot {
       letter-spacing: 0.25rem;
@@ -237,6 +288,7 @@ h3 {
       padding-bottom: 5rem;
    }
 }
+
 @media (min-width: 551px) {
    .foot {
       letter-spacing: 0.35rem;
@@ -244,6 +296,7 @@ h3 {
       padding-bottom: 5rem;
    }
 }
+
 @media (min-width: 1300px) {
    .foot {
       letter-spacing: 0.35rem;
@@ -252,13 +305,10 @@ h3 {
    }
 }
 
-p {
-   padding-top: 2rem;
-}
-
 .div-ico {
    text-align: center;
 }
+
 @media (max-width: 550px) {
    .div-ico img {
       display: inline-block;
@@ -283,3 +333,5 @@ p {
       padding: 1.5rem;
    }
 }
+
+/* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
