@@ -65,17 +65,9 @@ body {
 /* ? === === === === === === SKILLS === === === === === === === */
 
 .flex-container {
-   display: flex;
    background-color: #f4f7c5;
-   /* padding-left: 10%;
-   padding-right: 10%;
-   padding-top: 5%;
-   padding-bottom: 5%; */
-   gap: 5%;
 }
-.flex-child {
-   flex: 1;
-}
+
 .flex-child:first-child {
    margin-right: 20px;
 }
@@ -263,6 +255,11 @@ hr {
 @media (min-width: 850px) {
    .flex-container {
       display: flex;
+      background-color: #f4f7c5;
+      gap: 5%;
+   }
+   .flex-child {
+      flex: 1;
    }
    .flex-container .space-right {
       padding-right: 5rem;
