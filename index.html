@@ -43,7 +43,7 @@
       </section>
       <h2 class="projHeading">PROJECTS</h2>
 
-      <div class="flex-container">
+      <div class="flex-container container-1">
          <div class="flex-child wow fadeInLeft">
             <h3>DEVELOPER / CHAT APP</h3>
             <p>
@@ -81,7 +81,7 @@
          </div>
       </div>
 
-      <div class="flex-container">
+      <div class="flex-container container-2">
          <div class="flex-child wow fadeInLeft">
             <h3>DEVELOPER / CLI NOTES TAKING APP</h3>
             <p>
@@ -139,7 +139,7 @@
       });
       wow.init();
       document.getElementById('moar').onclick = function () {
-         var section = document.createElement('section');
+         let section = document.createElement('section');
          section.className = 'section--purple wow fadeInDown';
          this.parentNode.insertBefore(section, this);
       };

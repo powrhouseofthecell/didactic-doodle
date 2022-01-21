@@ -27,7 +27,6 @@ body {
 
 .heading {
    line-height: normal;
-   padding-bottom: 10rem;
 }
 
 .heading .head-main {
@@ -41,7 +40,6 @@ body {
    color: black;
    display: block;
    font-family: 'Sacramento';
-   margin-top: 2rem;
    animation: moveRight 1.3s ease-in-out;
 }
 
@@ -56,7 +54,6 @@ body {
 /* * === === === === === === ABOUT === === === === === === === */
 
 .about {
-   padding: 10rem;
    background-color: #fbc687;
 }
 
@@ -68,12 +65,7 @@ body {
    background-color: #f4f7c5;
 }
 
-.flex-child:first-child {
-   margin-right: 20px;
-}
-
 h3 {
-   padding-bottom: 2rem;
    text-transform: uppercase;
    font-weight: 500;
 }
@@ -81,14 +73,9 @@ h3 {
 .projHeading {
    background-color: #f4f7c5;
    text-align: center;
-   padding-top: 7rem;
-   font-size: 2rem;
-   letter-spacing: 4px;
+   font-size: 2.5rem;
+   letter-spacing: 0.55rem;
    color: rgb(70, 66, 66);
-}
-
-p {
-   padding-top: 2rem;
 }
 
 .projLink {
@@ -107,7 +94,6 @@ p {
 /* * === === === === === === FOOT === === === === === === === */
 
 .foot {
-   padding-top: 5rem;
    text-align: center;
    background-color: #aacdbe;
 }
@@ -130,168 +116,23 @@ p {
    animation: fadeInUp 1.2s ease-in-out;
 }
 
-/*
-
-
-
-@media (max-width: 550px) {
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 551px) {
-  
-}
-
-
-
-@media (min-width: 1300px) {
-   .about {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 10rem 7rem;
-   }
-}
-
-@media (min-width: 1000px) {
-   .wobbleAnim:hover {
-      display: inline-block;
-      animation: wobble-vertical 1s ease-in;
-   }
-}
-
-
-
-
-@media (min-width: 1300px) {
-   .heading .head-main {
-      font-size: 7rem;
-      letter-spacing: 1rem;
-   }
-}
-
-
-
-
-
-@media (min-width: 1300px) {
-   .heading .head-second {
-      font-size: 4.5rem;
-      letter-spacing: 0;
-   }
-}
-
-
-
-
-
-@media (min-width: 1300px) {
-   .flex-container {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-       padding: 10rem 7rem; 
-   }
-}
-
-@media (min-width: 1400px) {
-   .flex-container {
-      letter-spacing: 0.2rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-    padding: 10rem 7rem; 
-   }
-}
-
-@media (min-width: 850px) {
-   .flex-container {
-      display: flex;
-      background-color: #f4f7c5;
-      gap: 5%;
-   }
-   .flex-child {
-      flex: 1;
-   }
-   .flex-container .space-right {
-      padding-right: 5rem;
-   }
-   .flex-container .space-left {
-      padding-left: 5rem;
-   }
-   .fadeInLeft {
-      animation-name: fadeInLeft;
-   }
-   .fadeInRight {
-      animation-name: fadeInRight;
-   }
-}
-
-
-
-
-@media (min-width: 1300px) {
-   .foot {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      padding-bottom: 7rem;
-   }
-}
-
-.div-ico {
-   text-align: center;
-}
-
-
-
-@media (min-width: 1300px) {
-   .div-ico img {
-      display: inline-block;
-      height: 30px;
-      width: 30px;
-      padding: 1.5rem;
-   }
-} */
-
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
 
-@media (max-width: 480px) {
-   /* smartphones, iPhone, portrait 480x320 phones */
-   .flex-container {
-      background-color: blue;
-   }
-
+@media (min-width: 312px) {
    .flex-container {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
       line-height: 2rem;
-      padding: 7rem 3rem;
-   }
-   h3 {
-      padding-top: 2rem;
    }
    .about {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
       line-height: 2rem;
-      padding: 7rem 3rem;
    }
    .div-ico img {
       display: inline-block;
       height: 20px;
       width: 20px;
-      padding: 1rem;
    }
    .heading .head-main {
       font-size: 4rem;
@@ -300,72 +141,85 @@ p {
    .heading .head-second {
       font-size: 2.8rem;
       letter-spacing: 0;
-      padding-bottom: 5rem;
    }
    .foot {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
-      padding-bottom: 5rem;
    }
 }
-@media (min-width: 481px) {
-   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-   .flex-container {
-      background-color: yellow;
-   }
 
-   /* .heading .head-second {
-      font-size: 4rem;
-   }
-   .heading .head-main {
-      font-size: 6rem;
-      letter-spacing: 0.5rem;
-   }
+@media (min-width: 642px) {
    .flex-container {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 7rem 5rem;
+      display: flex;
+      background-color: #f4f7c5;
+      gap: 5%;
    }
-   .about {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      padding: 7rem 5rem;
-   }
-   .div-ico img {
-      display: inline-block;
-      height: 30px;
-      width: 30px;
-      padding: 1.3rem;
-   }
-   .foot {
-      letter-spacing: 0.35rem;
-      font-size: 1.5rem;
-      padding-bottom: 5rem;
-   } */
-}
-@media (min-width: 641px) {
-   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-   .flex-container {
-      background-color: red;
+   .flex-child {
+      flex: 1;
    }
 }
 @media (min-width: 961px) {
-   /* tablet, landscape iPad, lo-res laptops ands desktops */
    .flex-container {
-      background-color: purple;
+      letter-spacing: 0.3rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+   }
+   .about {
+      letter-spacing: 0.3rem;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+   }
+   .div-ico img {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+   }
+   .heading .head-main {
+      font-size: 4.2rem;
+      letter-spacing: 2px;
+   }
+   .heading .head-second {
+      font-size: 3rem;
+      letter-spacing: 2px;
+   }
+   .foot {
+      letter-spacing: 0.3rem;
+      font-size: 1.4rem;
+   }
+   .wobbleAnim:hover {
+      display: inline-block;
+      animation: wobble-vertical 1s ease-in-out;
    }
 }
 @media (min-width: 1025px) {
-   /* big landscape tablets, laptops, and desktops */
-   .flex-container {
-      background-color: olivedrab;
+   .heading .head-main {
+      font-size: 4.5rem;
+      letter-spacing: 5px;
    }
-}
-@media (min-width: 1281px) {
-   /* hi-res laptops and desktops */
+   .heading .head-second {
+      font-size: 3.5rem;
+      letter-spacing: 2.5px;
+   }
+   h3 {
+      font-size: 2rem;
+   }
+   .about {
+      letter-spacing: 0.45rem;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+   }
    .flex-container {
-      background-color: orange;
+      letter-spacing: 0.45rem;
+      font-size: 1.5rem;
+      line-height: 2.1rem;
+   }
+   .div-ico img {
+      display: inline-block;
+      height: 25px;
+      width: 25px;
+   }
+   .foot {
+      letter-spacing: 0.5rem;
+      font-size: 1.8rem;
    }
 }
