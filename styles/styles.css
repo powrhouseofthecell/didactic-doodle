@@ -102,15 +102,6 @@ p {
    text-decoration: none;
 }
 
-hr {
-   border-style: dotted;
-   width: 5%;
-   border-top: none;
-   border-width: 5px;
-   margin: 0 auto;
-   color: rgb(70, 66, 66);
-}
-
 /* ? === === === === === === SKILLS END === === === === === === === */
 
 /* * === === === === === === FOOT === === === === === === === */
@@ -266,9 +257,6 @@ hr {
    }
    .flex-container .space-left {
       padding-left: 5rem;
-   }
-   .flex-container hr {
-      visibility: hidden;
    }
    .fadeInLeft {
       animation-name: fadeInLeft;
