@@ -89,6 +89,28 @@ h3 {
    text-decoration: none;
 }
 
+.section-divider {
+   display: block;
+   border: none;
+   margin: 10px auto;
+   padding: 0;
+}
+
+.section-divider.-waved {
+   height: 5px;
+   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
+   animation: hr-width 3s ease-out;
+}
+
+@keyframes hr-width {
+   0% {
+      width: 0;
+   }
+   100% {
+      width: 100%;
+   }
+}
+
 /* ? === === === === === === SKILLS END === === === === === === === */
 
 /* * === === === === === === FOOT === === === === === === === */
@@ -114,23 +136,6 @@ h3 {
 
 .fadeInUp {
    animation: fadeInUp 1.2s ease-in-out;
-}
-
-.separator--line {
-   border: 0;
-   border-bottom: 5px solid #bada55;
-   width: 0;
-   -webkit-animation: separator-width 1s ease-out forwards;
-   animation: separator-width 1s ease-out forwards;
-}
-
-@keyframes separator-width {
-   0% {
-      width: 0;
-   }
-   100% {
-      width: 100%;
-   }
 }
 
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
