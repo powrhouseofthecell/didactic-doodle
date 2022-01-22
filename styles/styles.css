@@ -116,6 +116,23 @@ h3 {
    animation: fadeInUp 1.2s ease-in-out;
 }
 
+.separator--line {
+   border: 0;
+   border-bottom: 5px solid #bada55;
+   width: 0;
+   -webkit-animation: separator-width 1s ease-out forwards;
+   animation: separator-width 1s ease-out forwards;
+}
+
+@keyframes separator-width {
+   0% {
+      width: 0;
+   }
+   100% {
+      width: 100%;
+   }
+}
+
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
 
 @media (min-width: 312px) {
@@ -123,11 +140,31 @@ h3 {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
       line-height: 2rem;
+      padding: 0 5%;
+   }
+   .projHeading {
+      padding: 4% 0;
+   }
+   .padd {
+      padding: 2.5% 0;
+      background-color: #f4f7c5;
+   }
+   .flex-child {
+      padding: 3% 0;
+   }
+   .fadeInLeft {
+      display: inline-block;
+      animation: fadeInLeft 1s ease-in-out;
+   }
+   .fadeInRight {
+      display: inline-block;
+      animation: fadeInRight 1s ease-in-out;
    }
    .about {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
       line-height: 2rem;
+      padding: 5%;
    }
    .div-ico img {
       display: inline-block;
