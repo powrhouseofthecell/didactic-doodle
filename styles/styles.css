@@ -47,7 +47,6 @@ body {
    text-align: center;
    height: 80vh;
    background-color: #f8ede3;
-   /* background-color: #ea907a; */
 }
 
 /* ! === === === === === === HEAD END === === === === === === === */
@@ -56,18 +55,19 @@ body {
 
 .about {
    background-color: #bdd2b6;
-   /* background-color: #fbc687; */
 }
 
 /* * === === === === === === ABOUT END === === === === === === === */
 
 /* ? === === === === === === SKILLS === === === === === === === */
 
-.flex-container {
+.flex-sec {
    background-color: #a2b29f;
-   /* background-color: #f4f7c5; */
 }
 
+.skill-h3 {
+   color: rgb(70, 66, 66);
+}
 h3 {
    text-transform: uppercase;
 }
@@ -77,7 +77,6 @@ h2 {
 }
 
 .projHeading {
-   background-color: #a2b29f;
    text-align: center;
    font-size: 2.5rem;
    letter-spacing: 0.55rem;
@@ -102,7 +101,6 @@ h2 {
 .foot {
    text-align: center;
    background-color: #798777;
-   /* background-color: #aacdbe; */
 }
 .foot .heart {
    position: relative;
@@ -144,6 +142,7 @@ h2 {
    .about-head {
       padding-bottom: 6%;
    }
+
    .flex-container {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
@@ -168,7 +167,6 @@ h2 {
    .skill-h3 {
       padding-bottom: 4%;
       font-weight: 600;
-      color: rgb(70, 66, 66);
    }
    .section-divider {
       display: block;
@@ -181,6 +179,10 @@ h2 {
       height: 5px;
       background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
       animation: hr-width 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+   }
+   .padding {
+      padding-bottom: 10%;
+      background-color: #a2b29f;
    }
    .div-ico img {
       display: inline-block;
@@ -215,6 +217,10 @@ h2 {
    .wobbleAnim:hover {
       display: inline-block;
       animation: wobble-vertical 1s ease-in-out;
+   }
+   .padding {
+      padding-bottom: 0%;
+      background-color: #a2b29f;
    }
 }
 @media (min-width: 961px) {
