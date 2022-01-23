@@ -46,7 +46,8 @@ body {
 .head {
    text-align: center;
    height: 80vh;
-   background-color: #ea907a;
+   background-color: #96ceb4;
+   /* background-color: #ea907a; */
 }
 
 /* ! === === === === === === HEAD END === === === === === === === */
@@ -54,7 +55,8 @@ body {
 /* * === === === === === === ABOUT === === === === === === === */
 
 .about {
-   background-color: #fbc687;
+   background-color: #ffad60;
+   /* background-color: #fbc687; */
 }
 
 /* * === === === === === === ABOUT END === === === === === === === */
@@ -62,7 +64,8 @@ body {
 /* ? === === === === === === SKILLS === === === === === === === */
 
 .flex-container {
-   background-color: #f4f7c5;
+   background-color: #d9534f;
+   /* background-color: #f4f7c5; */
 }
 
 h3 {
@@ -74,7 +77,7 @@ h2 {
 }
 
 .projHeading {
-   background-color: #f4f7c5;
+   background-color: #d9534f;
    text-align: center;
    font-size: 2.5rem;
    letter-spacing: 0.55rem;
@@ -82,7 +85,7 @@ h2 {
 }
 
 .projLink {
-   color: #92a9bd;
+   color: rgb(70, 66, 66);
    text-decoration: none;
    transition: background-color 0.2s ease-in-out;
 }
@@ -98,7 +101,8 @@ h2 {
 
 .foot {
    text-align: center;
-   background-color: #aacdbe;
+   background-color: #ffad60;
+   /* background-color: #aacdbe; */
 }
 .foot .heart {
    position: relative;
@@ -203,7 +207,6 @@ h2 {
    }
    .flex-container {
       display: flex;
-      background-color: #f4f7c5;
       gap: 20%;
    }
    .flex-child {
