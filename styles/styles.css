@@ -67,7 +67,6 @@ body {
 
 h3 {
    text-transform: uppercase;
-   font-weight: 500;
 }
 h2 {
    text-transform: uppercase;
@@ -122,7 +121,7 @@ h2 {
 
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
 
-@media (min-width: 312px) {
+@media (min-width: 251px) {
    .heading .head-main {
       font-size: 4rem;
       letter-spacing: 0;
@@ -164,6 +163,8 @@ h2 {
    }
    .skill-h3 {
       padding-bottom: 4%;
+      font-weight: 600;
+      color: rgb(70, 66, 66);
    }
    .section-divider {
       display: block;
@@ -181,7 +182,9 @@ h2 {
       display: inline-block;
       height: 20px;
       width: 20px;
-      padding-bottom: 3%;
+   }
+   .foot-text {
+      padding-top: 3%;
    }
    .link {
       padding-right: 1.5%;
@@ -201,28 +204,17 @@ h2 {
    .flex-container {
       display: flex;
       background-color: #f4f7c5;
-      gap: 5%;
+      gap: 20%;
    }
    .flex-child {
       flex: 1;
    }
+   .wobbleAnim:hover {
+      display: inline-block;
+      animation: wobble-vertical 1s ease-in-out;
+   }
 }
 @media (min-width: 961px) {
-   .flex-container {
-      letter-spacing: 0.3rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-   }
-   .about {
-      letter-spacing: 0.3rem;
-      font-size: 1.4rem;
-      line-height: 2.2rem;
-   }
-   .div-ico img {
-      display: inline-block;
-      height: 20px;
-      width: 20px;
-   }
    .heading .head-main {
       font-size: 4.2rem;
       letter-spacing: 2px;
@@ -231,13 +223,50 @@ h2 {
       font-size: 3rem;
       letter-spacing: 2px;
    }
+   .about {
+      letter-spacing: 0.3rem;
+      font-size: 1.4rem;
+      line-height: 2.2rem;
+      padding: 6% 5%;
+   }
+   .about-head {
+      padding-bottom: 3%;
+   }
+   .flex-container {
+      letter-spacing: 0.3rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding: 3% 5%;
+   }
+   .projHeading {
+      padding-top: 5%;
+      padding-bottom: 3%;
+   }
+   .container-1 {
+      padding-bottom: 0;
+   }
+   .container-2 {
+      padding-top: 0;
+   }
+   .div-ico img {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+   }
    .foot {
       letter-spacing: 0.3rem;
       font-size: 1.4rem;
    }
-   .wobbleAnim:hover {
-      display: inline-block;
-      animation: wobble-vertical 1s ease-in-out;
+
+   .foot-text {
+      padding-top: 1.5%;
+   }
+   .link {
+      padding-right: 0.75%;
+   }
+   .foot {
+      padding-top: 4%;
+      padding-bottom: 4%;
    }
 }
 @media (min-width: 1025px) {
@@ -249,9 +278,6 @@ h2 {
       font-size: 3.5rem;
       letter-spacing: 2.5px;
    }
-   /* h3 {
-      font-size: 2rem;
-   } */
    .about {
       letter-spacing: 0.45rem;
       font-size: 1.5rem;
