@@ -69,6 +69,10 @@ h3 {
    text-transform: uppercase;
    font-weight: 500;
 }
+h2 {
+   text-transform: uppercase;
+   font-weight: 500;
+}
 
 .projHeading {
    background-color: #f4f7c5;
@@ -87,28 +91,6 @@ h3 {
 .projLink:hover {
    background-color: #e8e1d8;
    text-decoration: none;
-}
-
-.section-divider {
-   display: block;
-   border: none;
-   margin: 10px auto;
-   padding: 0;
-}
-
-.section-divider.-waved {
-   height: 5px;
-   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
-   animation: hr-width 3s ease-out;
-}
-
-@keyframes hr-width {
-   0% {
-      width: 0;
-   }
-   100% {
-      width: 100%;
-   }
 }
 
 /* ? === === === === === === SKILLS END === === === === === === === */
@@ -141,18 +123,33 @@ h3 {
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
 
 @media (min-width: 312px) {
+   .heading .head-main {
+      font-size: 4rem;
+      letter-spacing: 0;
+      padding-bottom: 6%;
+   }
+   .heading .head-second {
+      font-size: 2.8rem;
+      letter-spacing: 0;
+   }
+   .about {
+      letter-spacing: 0.25rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      padding: 8% 10%;
+   }
+   .about-head {
+      padding-bottom: 6%;
+   }
    .flex-container {
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
       line-height: 2rem;
-      padding: 0 5%;
+      padding: 0% 10%;
    }
    .projHeading {
-      padding: 4% 0;
-   }
-   .padd {
-      padding: 2.5% 0;
-      background-color: #f4f7c5;
+      padding-top: 10%;
+      padding-bottom: 6%;
    }
    .flex-child {
       padding: 3% 0;
@@ -165,32 +162,42 @@ h3 {
       display: inline-block;
       animation: fadeInRight 1s ease-in-out;
    }
-   .about {
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 5%;
+   .skill-h3 {
+      padding-bottom: 4%;
+   }
+   .section-divider {
+      display: block;
+      border: none;
+      margin: 10px auto;
+      padding: 0;
+      margin-top: 6%;
+   }
+   .section-divider.-waved {
+      height: 5px;
+      background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
+      animation: hr-width 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
    }
    .div-ico img {
       display: inline-block;
       height: 20px;
       width: 20px;
+      padding-bottom: 3%;
    }
-   .heading .head-main {
-      font-size: 4rem;
-      letter-spacing: 0;
-   }
-   .heading .head-second {
-      font-size: 2.8rem;
-      letter-spacing: 0;
+   .link {
+      padding-right: 1.5%;
    }
    .foot {
+      padding-top: 6%;
+      padding-bottom: 6%;
       letter-spacing: 0.25rem;
       font-size: 1.2rem;
    }
 }
 
 @media (min-width: 642px) {
+   hr {
+      opacity: 0;
+   }
    .flex-container {
       display: flex;
       background-color: #f4f7c5;
@@ -242,9 +249,9 @@ h3 {
       font-size: 3.5rem;
       letter-spacing: 2.5px;
    }
-   h3 {
+   /* h3 {
       font-size: 2rem;
-   }
+   } */
    .about {
       letter-spacing: 0.45rem;
       font-size: 1.5rem;
