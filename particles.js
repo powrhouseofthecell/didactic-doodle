@@ -891,8 +891,7 @@ var pJS = function (tag_id, params) {
             init();
          }
       } else if (
-
-      /* on click event */
+         /* on click event */
          pJS.interactivity.events.onclick.enable &&
          isInArray('bubble', pJS.interactivity.events.onclick.mode)
       ) {

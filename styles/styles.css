@@ -1,52 +1,52 @@
 /* ! === === === === === === HEAD === === === === === === === */
 
 * {
-   padding: 0;
-   margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-   font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-   font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 #particles-js {
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .particles-js-canvas-el {
-   position: absolute;
+  position: absolute;
 }
 
 .heading {
-   line-height: normal;
+  line-height: normal;
 }
 
 .heading .head-main {
-   color: black;
-   display: block;
-   font-family: 'Major Mono Display';
-   animation: moveLeft 1.3s ease-in-out;
+  color: black;
+  display: block;
+  font-family: 'Major Mono Display';
+  animation: moveLeft 1.3s ease-in-out;
 }
 
 .heading .head-second {
-   color: black;
-   display: block;
-   font-family: 'Sacramento';
-   animation: moveRight 1.3s ease-in-out;
+  color: black;
+  display: block;
+  font-family: 'Sacramento';
+  animation: moveRight 1.3s ease-in-out;
 }
 
 .head {
-   text-align: center;
-   height: 80vh;
-   background-color: #f8ede3;
+  text-align: center;
+  height: 80vh;
+  background-color: #f8ede3;
 }
 
 /* ! === === === === === === HEAD END === === === === === === === */
@@ -54,7 +54,7 @@ body {
 /* * === === === === === === ABOUT === === === === === === === */
 
 .about {
-   background-color: #bdd2b6;
+  background-color: #bdd2b6;
 }
 
 /* * === === === === === === ABOUT END === === === === === === === */
@@ -62,36 +62,36 @@ body {
 /* ? === === === === === === SKILLS === === === === === === === */
 
 .flex-sec {
-   background-color: #a2b29f;
+  background-color: #a2b29f;
 }
 
 .skill-h3 {
-   color: rgb(70, 66, 66);
+  color: rgb(70, 66, 66);
 }
 h3 {
-   text-transform: uppercase;
+  text-transform: uppercase;
 }
 h2 {
-   text-transform: uppercase;
-   font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .projHeading {
-   text-align: center;
-   font-size: 2.5rem;
-   letter-spacing: 0.55rem;
-   color: rgb(70, 66, 66);
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.55rem;
+  color: rgb(70, 66, 66);
 }
 
 .projLink {
-   color: rgb(70, 66, 66);
-   text-decoration: none;
-   transition: background-color 0.2s ease-in-out;
+  color: rgb(70, 66, 66);
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .projLink:hover {
-   background-color: #e8e1d8;
-   text-decoration: none;
+  background-color: #e8e1d8;
+  text-decoration: none;
 }
 
 /* ? === === === === === === SKILLS END === === === === === === === */
@@ -99,13 +99,13 @@ h2 {
 /* * === === === === === === FOOT === === === === === === === */
 
 .foot {
-   text-align: center;
-   background-color: #798777;
+  text-align: center;
+  background-color: #798777;
 }
 .foot .heart {
-   position: relative;
-   top: 1.5px;
-   height: 17px;
+  position: relative;
+  top: 1.5px;
+  height: 17px;
 }
 
 /* * === === === === === === FOOT END === === === === === === === */
@@ -113,197 +113,197 @@ h2 {
 /* ! === === === === === === ANIMATION AND MEDIA === === === === === === === */
 
 .animated {
-   animation-duration: 1s;
-   animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 .fadeInUp {
-   animation: fadeInUp 1.2s ease-in-out;
+  animation: fadeInUp 1.2s ease-in-out;
 }
 
 /* ! === === === === === === ANIMATION AND MEDIA END === === === === === === === */
 
 @media (min-width: 251px) {
-   .heading .head-main {
-      font-size: 4rem;
-      letter-spacing: 0;
-      padding-bottom: 6%;
-   }
-   .heading .head-second {
-      font-size: 2.8rem;
-      letter-spacing: 0;
-   }
-   .about {
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 8% 10%;
-   }
-   .about-head {
-      padding-bottom: 6%;
-   }
+  .heading .head-main {
+    font-size: 4rem;
+    letter-spacing: 0;
+    padding-bottom: 6%;
+  }
+  .heading .head-second {
+    font-size: 2.8rem;
+    letter-spacing: 0;
+  }
+  .about {
+    letter-spacing: 0.25rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 8% 10%;
+  }
+  .about-head {
+    padding-bottom: 6%;
+  }
 
-   .flex-container {
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 0% 10%;
-   }
-   .projHeading {
-      padding-top: 10%;
-      padding-bottom: 6%;
-   }
-   .flex-child {
-      padding: 3% 0;
-   }
-   .fadeInLeft {
-      display: inline-block;
-      animation: fadeInLeft 1s ease-in-out;
-   }
-   .fadeInRight {
-      display: inline-block;
-      animation: fadeInRight 1s ease-in-out;
-   }
-   .skill-h3 {
-      padding-bottom: 4%;
-      font-weight: 600;
-   }
-   .section-divider {
-      display: block;
-      border: none;
-      margin: 10px auto;
-      padding: 0;
-      margin-top: 6%;
-   }
-   .section-divider.-waved {
-      height: 5px;
-      background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
-      animation: hr-width 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-   }
-   .padding {
-      padding-bottom: 10%;
-      background-color: #a2b29f;
-   }
-   .div-ico img {
-      display: inline-block;
-      height: 20px;
-      width: 20px;
-   }
-   .foot-text {
-      padding-top: 3%;
-   }
-   .link {
-      padding-right: 1.5%;
-   }
-   .foot {
-      padding-top: 6%;
-      padding-bottom: 6%;
-      letter-spacing: 0.25rem;
-      font-size: 1.2rem;
-   }
+  .flex-container {
+    letter-spacing: 0.25rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 0% 10%;
+  }
+  .projHeading {
+    padding-top: 10%;
+    padding-bottom: 6%;
+  }
+  .flex-child {
+    padding: 3% 0;
+  }
+  .fadeInLeft {
+    display: inline-block;
+    animation: fadeInLeft 1s ease-in-out;
+  }
+  .fadeInRight {
+    display: inline-block;
+    animation: fadeInRight 1s ease-in-out;
+  }
+  .skill-h3 {
+    padding-bottom: 4%;
+    font-weight: 600;
+  }
+  .section-divider {
+    display: block;
+    border: none;
+    margin: 10px auto;
+    padding: 0;
+    margin-top: 6%;
+  }
+  .section-divider.-waved {
+    height: 5px;
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg id='squiggly' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23bada55' stroke-width='1' class='st0' d='M0, 3.5 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3 c 5, 0, 5, -3, 10, -3 s 5, 3, 10, 3'/%3E%3C/svg%3E");
+    animation: hr-width 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .padding {
+    padding-bottom: 10%;
+    background-color: #a2b29f;
+  }
+  .div-ico img {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+  }
+  .foot-text {
+    padding-top: 3%;
+  }
+  .link {
+    padding-right: 1.5%;
+  }
+  .foot {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    letter-spacing: 0.25rem;
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 642px) {
-   hr {
-      opacity: 0;
-   }
-   .flex-container {
-      display: flex;
-      gap: 20%;
-   }
-   .flex-child {
-      flex: 1;
-   }
-   .wobbleAnim:hover {
-      display: inline-block;
-      animation: wobble-vertical 1s ease-in-out;
-   }
-   .padding {
-      padding-bottom: 0%;
-      background-color: #a2b29f;
-   }
+  hr {
+    opacity: 0;
+  }
+  .flex-container {
+    display: flex;
+    gap: 20%;
+  }
+  .flex-child {
+    flex: 1;
+  }
+  .wobbleAnim:hover {
+    display: inline-block;
+    animation: wobble-vertical 1s ease-in-out;
+  }
+  .padding {
+    padding-bottom: 0%;
+    background-color: #a2b29f;
+  }
 }
 @media (min-width: 961px) {
-   .heading .head-main {
-      font-size: 4.2rem;
-      letter-spacing: 2px;
-   }
-   .heading .head-second {
-      font-size: 3rem;
-      letter-spacing: 2px;
-   }
-   .about {
-      letter-spacing: 0.3rem;
-      font-size: 1.4rem;
-      line-height: 2.2rem;
-      padding: 6% 5%;
-   }
-   .about-head {
-      padding-bottom: 3%;
-   }
-   .flex-container {
-      letter-spacing: 0.3rem;
-      font-size: 1.2rem;
-      line-height: 2rem;
-      padding: 3% 5%;
-   }
-   .projHeading {
-      padding-top: 5%;
-      padding-bottom: 3%;
-   }
-   .container-1 {
-      padding-bottom: 0;
-   }
-   .container-2 {
-      padding-top: 0;
-   }
-   .div-ico img {
-      display: inline-block;
-      height: 20px;
-      width: 20px;
-   }
-   .foot {
-      letter-spacing: 0.3rem;
-      font-size: 1.4rem;
-   }
+  .heading .head-main {
+    font-size: 4.2rem;
+    letter-spacing: 2px;
+  }
+  .heading .head-second {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .about {
+    letter-spacing: 0.3rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    padding: 6% 5%;
+  }
+  .about-head {
+    padding-bottom: 3%;
+  }
+  .flex-container {
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 3% 5%;
+  }
+  .projHeading {
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  .container-1 {
+    padding-bottom: 0;
+  }
+  .container-2 {
+    padding-top: 0;
+  }
+  .div-ico img {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+  }
+  .foot {
+    letter-spacing: 0.3rem;
+    font-size: 1.4rem;
+  }
 
-   .foot-text {
-      padding-top: 1.5%;
-   }
-   .link {
-      padding-right: 0.75%;
-   }
-   .foot {
-      padding-top: 4%;
-      padding-bottom: 4%;
-   }
+  .foot-text {
+    padding-top: 1.5%;
+  }
+  .link {
+    padding-right: 0.75%;
+  }
+  .foot {
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
 }
 @media (min-width: 1025px) {
-   .heading .head-main {
-      font-size: 4.5rem;
-      letter-spacing: 5px;
-   }
-   .heading .head-second {
-      font-size: 3.5rem;
-      letter-spacing: 2.5px;
-   }
-   .about {
-      letter-spacing: 0.45rem;
-      font-size: 1.5rem;
-      line-height: 2.1rem;
-   }
-   .flex-container {
-      letter-spacing: 0.45rem;
-      font-size: 1.5rem;
-      line-height: 2.1rem;
-   }
-   .div-ico img {
-      display: inline-block;
-      height: 25px;
-      width: 25px;
-   }
-   .foot {
-      letter-spacing: 0.5rem;
-      font-size: 1.8rem;
-   }
+  .heading .head-main {
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+  }
+  .heading .head-second {
+    font-size: 3.5rem;
+    letter-spacing: 2.5px;
+  }
+  .about {
+    letter-spacing: 0.45rem;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+  .flex-container {
+    letter-spacing: 0.45rem;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+  .div-ico img {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+  }
+  .foot {
+    letter-spacing: 0.5rem;
+    font-size: 1.8rem;
+  }
 }
