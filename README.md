@@ -8,6 +8,6 @@
 
 👤 **Zuhaib**
 
--  Website: [zuhaib.live](https://zuhaib.thedev.id)
+-  Website: [zuhaib.thedev.id](https://zuhaib.thedev.id)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 -  LinkedIn: [@zuhaibnazir](https://linkedin.com/in/zuhaibnazir)
