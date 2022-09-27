@@ -1,0 +1,39 @@
+.section {
+   height: 100vh;
+   width: 100%;
+   position: relative;
+   padding: 0;
+   text-align: center;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+}
+.bg1 {
+   background-color: #ccc;
+}
+.bg2 {
+   background-color: #333;
+}
+.about > .about-text > h2,
+.projects > h2 {
+   font-size: 40px;
+   line-height: 1.2;
+   margin: 0;
+   letter-spacing: 4px;
+   font-weight: 400;
+}
+.revealUp {
+   opacity: 0;
+   visibility: hidden;
+   margin: 0 auto;
+   padding: 1rem;
+}
+
+.center {
+   text-align: center;
+}
+
+.spacer {
+   height: 50vh;
+   background-color: #000;
+}

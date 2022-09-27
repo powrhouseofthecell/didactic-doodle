@@ -1,0 +1,156 @@
+body {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.fancy-link-hero {
+   background-image: linear-gradient(90deg, #3a3845, #826f66);
+   background-size: 0% 100px;
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   transition: background-size 300ms ease;
+   text-decoration: none;
+}
+.fancy-link-hero:hover {
+   background-size: 100% 100px;
+}
+
+.anim-text-banner {
+   font-size: 4rem;
+   height: 90%;
+   /* font-size: 7.5vw; */
+   font-weight: bold;
+   white-space: nowrap;
+   padding: 9vh 10%;
+   text-transform: uppercase;
+   font-weight: 400;
+   text-transform: lowercase;
+   background-color: #3a3845;
+}
+.anim-text-banner > span {
+   position: absolute;
+   display: inline-block;
+   clip: rect(0px, 0px, 300px, 0px);
+   color: #85586f;
+}
+
+.anim-text-parent {
+   position: relative;
+   color: #deb6ab;
+}
+.anim-text-parent > .v-bar {
+   position: absolute;
+   width: 0px;
+   height: 1vw;
+   background: #deb6ab;
+   display: inline-block;
+   top: 0px;
+   left: -20px;
+   transform: translate(-100%, 350%);
+}
+.anim-text-parent > .anim-text {
+   overflow: hidden;
+   white-space: nowrap;
+   top: 0;
+   left: 0;
+   position: absolute;
+   transition: width 1s ease;
+   clip: rect(0px, 0px, 300px, 0px);
+}
+.hero > .nav {
+   margin-left: 82%;
+   list-style: none;
+   text-decoration: none;
+   position: absolute;
+   top: 10%;
+   text-transform: lowercase;
+}
+.ul > li {
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+}
+
+.ul > li > a {
+   text-decoration: none;
+}
+.fullstack {
+   font-size: 3rem;
+}
+
+/* ! About section */
+.about {
+   background-image: url('../assets/wave1.svg');
+   background-repeat: no-repeat;
+   background-color: #f7ccac;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+}
+.about-text {
+   padding-top: 3rem;
+   width: 90vw;
+   margin: 0 auto;
+}
+
+.about > p {
+   width: 85vw;
+   margin: 0 auto;
+   letter-spacing: 1px;
+}
+
+@media screen and (min-width: 1000px) {
+   .about-text {
+      padding-top: 13rem;
+      display: flex;
+   }
+
+   .about-text > h2 {
+      display: inline-block;
+      transform: rotate(90deg);
+   }
+}
+/* ! Media for hero */
+/* 0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + : Big desktop */
+
+@media screen and (max-width: 600px) {
+   .anim-text-banner {
+      font-size: 4rem;
+      height: 90%;
+      /* font-size: 7.5vw; */
+      font-weight: bold;
+      white-space: nowrap;
+      padding: 9vh 10%;
+      text-transform: uppercase;
+      font-weight: 400;
+      text-transform: lowercase;
+      background-color: #3a3845;
+   }
+   .anim-text-banner {
+      font-size: 8vw;
+      padding: 9vh 30px;
+      height: 45vh;
+   }
+   .fullstack {
+      font-size: 1.3rem;
+   }
+   .anim-text-parent > .v-bar {
+      transform: translate(-100%, 600%);
+   }
+   .hero > .nav {
+      margin-left: 80%;
+      top: 10%;
+   }
+   .ul > li {
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+   }
+   .about > p {
+      font-size: 14px;
+      letter-spacing: 1.1px;
+      line-height: 1.3rem;
+   }
+}
