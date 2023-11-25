@@ -1,13 +1,10 @@
 <h1 align="center">Personal Portfolio 🎯</h1>
 
-> Personal portfolio. Demo below.A
-
-### ✨ [Demo](https://zuhaib.thedev.id)
+> Personal portfolio.
 
 ## Author
 
 👤 **Zuhaib**
 
--  Website: [zuhaib.thedev.id](https://zuhaib.thedev.id)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 -  LinkedIn: [@zuhaibnazir](https://linkedin.com/in/zuhaibnazir)
